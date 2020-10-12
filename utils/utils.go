@@ -18,8 +18,8 @@ import (
 	"github.com/fatih/color"
 	"github.com/tidwall/gjson"
 
-	"github.com/iawia002/annie/config"
-	"github.com/iawia002/annie/request"
+	"github.com/maseer/annie/config"
+	"github.com/maseer/annie/request"
 )
 
 // GetStringFromJSON get the string value from json path

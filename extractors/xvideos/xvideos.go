@@ -4,9 +4,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/iawia002/annie/extractors/types"
-	"github.com/iawia002/annie/request"
-	"github.com/iawia002/annie/utils"
+	"github.com/maseer/annie/extractors/types"
+	"github.com/maseer/annie/request"
+	"github.com/maseer/annie/utils"
 )
 
 const (

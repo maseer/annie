@@ -1,17 +1,17 @@
 <p align="center"><img src="static/logo.png" alt="Annie" height="100px"></p>
 
 <div align="center">
-  <a href="https://codecov.io/gh/iawia002/annie">
-    <img src="https://img.shields.io/codecov/c/github/iawia002/annie.svg?style=flat-square" alt="Codecov">
+  <a href="https://codecov.io/gh/maseer/annie">
+    <img src="https://img.shields.io/codecov/c/github/maseer/annie.svg?style=flat-square" alt="Codecov">
   </a>
-  <a href="https://travis-ci.com/iawia002/annie">
-    <img src="https://img.shields.io/travis/iawia002/annie.svg?style=flat-square" alt="Build Status">
+  <a href="https://travis-ci.com/maseer/annie">
+    <img src="https://img.shields.io/travis/maseer/annie.svg?style=flat-square" alt="Build Status">
   </a>
-  <a href="https://goreportcard.com/report/github.com/iawia002/annie">
-    <img src="https://goreportcard.com/badge/github.com/iawia002/annie?style=flat-square" alt="Go Report Card">
+  <a href="https://goreportcard.com/report/github.com/maseer/annie">
+    <img src="https://goreportcard.com/badge/github.com/maseer/annie?style=flat-square" alt="Go Report Card">
   </a>
-  <a href="https://github.com/iawia002/annie/releases">
-    <img src="https://img.shields.io/github/release/iawia002/annie.svg?style=flat-square" alt="GitHub release">
+  <a href="https://github.com/maseer/annie/releases">
+    <img src="https://img.shields.io/github/release/maseer/annie.svg?style=flat-square" alt="GitHub release">
   </a>
   <a href="https://formulae.brew.sh/formula/annie">
     <img src="https://img.shields.io/homebrew/v/annie.svg?style=flat-square" alt="Homebrew">
@@ -61,10 +61,10 @@ The following dependencies are required and must be installed separately.
 
 ### Install via `go get`
 
-To install Annie, use `go get`, or download the binary file from [Releases](https://github.com/iawia002/annie/releases) page.
+To install Annie, use `go get`, or download the binary file from [Releases](https://github.com/maseer/annie/releases) page.
 
 ```bash
-$ GO111MODULE=on go get github.com/iawia002/annie
+$ GO111MODULE=on go get github.com/maseer/annie
 ```
 
 ### Homebrew (macOS only)
@@ -632,7 +632,7 @@ Thanks for [JetBrains](https://www.jetbrains.com/?from=annie) for the wonderful 
 
 ## Authors
 
-Code with ❤️ by [iawia002](https://github.com/iawia002) and lovely [contributors](https://github.com/iawia002/annie/graphs/contributors)
+Code with ❤️ by [maseer](https://github.com/maseer) and lovely [contributors](https://github.com/maseer/annie/graphs/contributors)
 
 
 ## Similar projects
@@ -646,4 +646,4 @@ Code with ❤️ by [iawia002](https://github.com/iawia002) and lovely [contribu
 
 MIT
 
-Copyright (c) 2018-present, iawia002
+Copyright (c) 2018-present, maseer

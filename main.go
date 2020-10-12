@@ -10,11 +10,11 @@ import (
 
 	"github.com/fatih/color"
 
-	"github.com/iawia002/annie/downloader"
-	"github.com/iawia002/annie/extractors"
-	"github.com/iawia002/annie/extractors/types"
-	"github.com/iawia002/annie/request"
-	"github.com/iawia002/annie/utils"
+	"github.com/maseer/annie/downloader"
+	"github.com/maseer/annie/extractors"
+	"github.com/maseer/annie/extractors/types"
+	"github.com/maseer/annie/request"
+	"github.com/maseer/annie/utils"
 )
 
 var (
