@@ -31,7 +31,6 @@ import (
 	"github.com/maseer/annie/extractors/xvideos"
 	"github.com/maseer/annie/extractors/yinyuetai"
 	"github.com/maseer/annie/extractors/youku"
-	"github.com/maseer/annie/extractors/youtube"
 	"github.com/maseer/annie/utils"
 )
 
@@ -39,7 +38,7 @@ var extractorMap map[string]types.Extractor
 
 func init() {
 	douyinExtractor := douyin.New()
-	youtubeExtractor := youtube.New()
+	// youtubeExtractor := youtube.New()
 
 	extractorMap = map[string]types.Extractor{
 		"": universal.New(), // universal extractor
@@ -50,28 +49,28 @@ func init() {
 		"bcy":        bcy.New(),
 		"pixivision": pixivision.New(),
 		"youku":      youku.New(),
-		"youtube":    youtubeExtractor,
-		"youtu":      youtubeExtractor, // youtu.be
-		"iqiyi":      iqiyi.New(),
-		"mgtv":       mgtv.New(),
-		"tangdou":    tangdou.New(),
-		"tumblr":     tumblr.New(),
-		"vimeo":      vimeo.New(),
-		"facebook":   facebook.New(),
-		"douyu":      douyu.New(),
-		"miaopai":    miaopai.New(),
-		"163":        netease.New(),
-		"weibo":      weibo.New(),
-		"instagram":  instagram.New(),
-		"twitter":    twitter.New(),
-		"qq":         qq.New(),
-		"yinyuetai":  yinyuetai.New(),
-		"geekbang":   geekbang.New(),
-		"pornhub":    pornhub.New(),
-		"xvideos":    xvideos.New(),
-		"udn":        udn.New(),
-		"tiktok":     tiktok.New(),
-		"haokan":     haokan.New(),
+		// "youtube":    youtubeExtractor,
+		// "youtu":      youtubeExtractor, // youtu.be
+		"iqiyi":     iqiyi.New(),
+		"mgtv":      mgtv.New(),
+		"tangdou":   tangdou.New(),
+		"tumblr":    tumblr.New(),
+		"vimeo":     vimeo.New(),
+		"facebook":  facebook.New(),
+		"douyu":     douyu.New(),
+		"miaopai":   miaopai.New(),
+		"163":       netease.New(),
+		"weibo":     weibo.New(),
+		"instagram": instagram.New(),
+		"twitter":   twitter.New(),
+		"qq":        qq.New(),
+		"yinyuetai": yinyuetai.New(),
+		"geekbang":  geekbang.New(),
+		"pornhub":   pornhub.New(),
+		"xvideos":   xvideos.New(),
+		"udn":       udn.New(),
+		"tiktok":    tiktok.New(),
+		"haokan":    haokan.New(),
 	}
 }
 
